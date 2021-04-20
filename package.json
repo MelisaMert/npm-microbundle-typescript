@@ -1,0 +1,21 @@
+{
+  "name": "mikro-package",
+  "version": "1.0.0",
+  "description": "Microbundle & typescript",
+  "source": "src/index.tsx",
+  "main": "dist/index.js",
+  "exports":"./dist/index.module.js",
+  "unpkg":"dist/index.umd.js",
+  "scripts": {
+    "dev" : "microbundle watch",
+    "build" : "microbundle"
+  },
+  "author": "Melisa Mert",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,41 @@
+#npm init
+
+#npm i --save-dev microbundle
+
+#mkdir src & mkdir dist
+
+#touch src/index.ts
+
+#npm i —save-dev microbundle
+
+#npx microbundle
+
+
+|| index.js > common.js module (before es6)
+   this is module type used by node and it looks like 
+   const myModule = require('my-module')
+
+|| index.esm.js > ecmascript module (ES6)
+    it looks like import myModule from 'my-module'
+
+|| index.umd.js is the UMD module
+
+|| index.d.ts typescript type declaration file
+
+
+Yukarıdaki dosyaların her biri için typescript kaynağına geri dönen 
+eşleşen bir .map dosyası vardır.
+
+
+index.d.ts
+
+Ayrı tür bildirimi, TypeScript olmayan projelerin modülün genel API'sini de anlayabileceği anlamına gelir
+
+|| microbundle'dan yararlanarak modülü bir CommonJS modülü (standart npm modülü) olarak yayınlayabiliriz.
+
+|| ES Modülü olarak  veya UMD modülü de yayınlayabiliriz.
+
+
+
+
+

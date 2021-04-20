@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports):"function"==typeof define&&define.amd?define(["exports"],n):n((e||self).mikroPackage={})}(this,function(e){var n=function(){function e(e){}return e.prototype.getHelperInfo=function(){console.log("Helper Info  "+void 0)},e}();e.Index=function(){this.indexLog=function(){return h("p",null,"indexLog")},this.helperLog=function(){new n("Helper Log").getHelperInfo()},console.log("Index tsx")}});
+//# sourceMappingURL=index.umd.js.map
